@@ -1,0 +1,33 @@
+.color-card {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  text-align: center;
+}
+
+.color-card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+p {
+  color: white;
+}
