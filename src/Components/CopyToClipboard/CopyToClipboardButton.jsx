@@ -21,11 +21,11 @@ export default function CopyToClipboardButton({ CopyToClipboard, colorhex }) {
 
   return isCopied ? (
     <div>
-      <button>SUCCESSFULLY COPIED</button>
+      <button>SUCCESSFULLY COPIED ✅</button>
     </div>
   ) : (
     <div>
-      <button onClick={clickedCopy}>COPY</button>
+      <button onClick={clickedCopy}>COPY 🖨️ </button>
     </div>
   );
 }

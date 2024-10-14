@@ -23,7 +23,7 @@ export default function ChangeColor({ color, handleColorUpdate }) {
           <button onClick={handleCancelClick}>CANCEL</button>
         </div>
       ) : (
-        <button onClick={handleEditClick}>EDIT</button>
+        <button onClick={handleEditClick}>EDIT 🖍️</button>
       )}
     </div>
   );

@@ -1,5 +1,4 @@
 import ColorInput from "../colorInput/colorInput";
-
 export default function ChangeColorForm({ initialData, handleColorUpdate }) {
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -9,7 +8,7 @@ export default function ChangeColorForm({ initialData, handleColorUpdate }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="changeColorForm">
       <label htmlFor="role">Role</label>
       <input type="text" name="role" defaultValue={initialData.role} />
 

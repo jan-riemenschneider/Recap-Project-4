@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./DeleteButton.css";
+import "../DeleteButton/DeleteButton.css";
 
 export default function DeleteButton({ colorId, deleteColorById }) {
   const [isConfirm, setIsConfirm] = useState(false);
@@ -26,7 +26,7 @@ export default function DeleteButton({ colorId, deleteColorById }) {
           <button onClick={handleCancel}>Cancel</button>
         </div>
       ) : (
-        <button onClick={handleDeleteClick}>DELETE</button>
+        <button onClick={handleDeleteClick}>DELETE ❌</button>
       )}
     </div>
   );

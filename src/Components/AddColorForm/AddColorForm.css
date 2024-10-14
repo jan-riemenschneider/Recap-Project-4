@@ -1,12 +1,12 @@
 form {
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 30px;
   border-radius: 8px;
   max-width: 400px;
   margin: 20px auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 10%;
-  margin-top: 10%
+  margin-top: 10%;
 }
 
 label {
@@ -15,6 +15,10 @@ label {
   font-size: 14px;
   font-weight: bold;
   color: #333;
+}
+
+label[for="contrastText"] {
+  margin-top: 10px;
 }
 
 input[type="text"] {
@@ -43,6 +47,9 @@ button[type="submit"] {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s ease;
+  margin-top: 15px;
+  position: relative;
+  left: -10px;
 }
 
 button[type="submit"]:hover {

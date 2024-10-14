@@ -8,6 +8,8 @@
   transition: transform 0.3s ease-in-out;
   display: inline-block;
   text-align: center;
+  margin-right: 2%;
+  margin-top: 2%;
 }
 
 .color-card:hover {
@@ -22,6 +24,8 @@ button {
   cursor: pointer;
   font-size: 10px;
   transition: background-color 0.2s ease-in-out;
+  display: flex;
+  flex-direction: column;
 }
 
 button:hover {
@@ -30,4 +34,10 @@ button:hover {
 
 p {
   color: white;
+}
+
+.Button {
+  display: flex;
+  gap: 20px;
+  margin-top: 70px;
 }
